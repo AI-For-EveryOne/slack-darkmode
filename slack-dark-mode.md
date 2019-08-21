@@ -30,7 +30,7 @@ vim app/dist/ssb-interop.bundle.js
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {    
-  fetch('https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css')    
+  fetch('https://raw.githubusercontent.com/AI-For-EveryOne/slack-darkmode/master/darkmode.css')    
   .then(function(response) {
     return response.text();
   })
@@ -47,4 +47,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ```
 asar pack app app.asar
+```
+
+
+## 6. 作成したapp.asarをコピー
+
+```
+sudo cp app.asar /Applications/Slack.app/Contents/Resources
+```
+
+## 7. Slackを起動
+
+```
+open /Applications/Slack.app
 ```
