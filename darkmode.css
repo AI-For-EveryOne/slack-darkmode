@@ -89,7 +89,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #545454; }
 
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: whitesmoke !important; }
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: #00CC00 !important; }
 
 .p-channel_sidebar__close_container:hover { background: #000; }
 
@@ -1061,7 +1061,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-app_badge { background: #545454; box-shadow: 0 0 2px rgba(0, 0, 0, 0.25); color: #949494; }
 
-.c-message_list__unread_divider__separator { border-color: #949494; }
+.c-message_list__unread_divider__separator { border-color: #00CC00; }
 
 .c-message_list__unread_divider__label { background: #545454; box-shadow: 0 0 2px rgba(0, 0, 0, 0.25); color: #949494; }
 
