@@ -1,8 +1,8 @@
+# Slack Dark mode
 ## 1. asar コマンドをインストール
 
 ```
 npm install -g asar
-
 ```
 
 ## 2. Slack.app から app.asar , app.asar.unpacked をコピー
@@ -12,7 +12,6 @@ npm install -g asar
 mkdir -p ~/tmp/slack
 cp /Applications/Slack.app/Contents/Resources/app.asar ~/tmp/slack
 cp -r /Applications/Slack.app/Contents/Resources/app.asar.unpacked ~/tmp/slack
-
 ```
 
 ## 3. asar を展開
