@@ -1304,7 +1304,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .c-message_kit__labels__label { color: #949494; }
 
-.c-message_kit__file__meta { color: #e6e6e6; }
+.c-message_kit__file__meta { color: #00CC00; }
 
 .attachment_group.has_container { background: #222; border: 1px solid #363636; }
 
